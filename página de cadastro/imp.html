@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+    h1{
+        font-family: 'Times New Roman', Times, serif;
+        font-size: 25px;
+        color: black;
+        text-align: left;
+        background-color: lightskyblue;
+   
+    }
+    p{text-align: left;
+     font-family: Arial;
+      font-size: 14pt;
+    
+    }
+    p1{margin-left: 200px;
+        font-size: 14pt;
+        font-family: Arial;
+    }
+
+    p2{margin-left: 200px;
+        font-size: 14pt;
+        font-family: Arial;
+    }
+    </style>
+</head>
+<body>
+    <h1>Sistema de Gestão Acadêmica</h1>  
+    <h2>Manutenção de Usúario do Sistema Interno</h2>
+    <form>
+    <p><label for="login">Login:</label>
+        <br>
+        <input type="text" name="login" id="login"> 
+        <br>
+        <br>
+       <label for="Senha">Senha:</label>
+       <br>
+        <input type="text" name="senha" id="senha"> 
+        <br>
+        <br>
+            <label for="status">Status:</label>
+            <select name="status" id="status">
+              <option value="Inativo">Inativo</option>
+              <option value="Ativo">Ativo</option>
+            </select>
+            <br>
+            <br>
+            <h3>Tipo
+            <input type="radio" id="Técnico" >
+            <label for="Técnico">Técnico</label>
+            <input type="radio" id="Professor">
+            <label for="Professor">Professor</label>
+            <input type="radio" id="Aluno">
+            <label for="Aluno">Aluno</label>
+             </h3>
+            <br>
+            <br>
+            <label for="Data Criação">Data Criação:</label>
+        <br>
+        <input type="text" name="Data Criação" id=" Data Criação">
+        <br>
+        <br>
+        <h3> Perfil
+        <input type="radio" id="Convidado" >
+            <label for="Convidado">Convidado</label>
+            <input type="radio" id="Administrador">
+            <label for="Professor">Administrador</label>
+        </h3>
+        <h3> Observações
+            <textarea> </textarea>
+        </h3>
+        <br>
+        <br>
+        <h3> Módulos   
+        <input type="checkbox" id="Compras" name="Compras" value="Compras">
+        <label for="Compras">Compras</label>
+        <input type="checkbox" id="Biblioteca" name="Biblioteca" value="Biblioteca">
+        <label for="vehicle1">Biblioteca</label>
+        <input type="checkbox" id="Acadêmico" name="Acadêmico" value="Acadêmico">
+        <label for="vehicle1">Acadêmico</label><br>
+        <input type="checkbox" id="Documentação" name="Documentação" value="Documentação">
+        <label for="vehicle1">Documentação</label>
+        <input type="checkbox" id="RH" name="RH" value="RH">
+        <label for="vehicle1">RH</label>
+        </h3>
+        <input type="submit" value="Cadastrar">
+        <input type="submit" value="Excluir">
+    </p>
+</form>
+</body>
+</html>
